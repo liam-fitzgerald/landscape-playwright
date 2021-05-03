@@ -1,0 +1,20 @@
+{
+  "name": "landscape-playwright",
+  "version": "0.1.0",
+  "description": "E2E tests for landscape",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:watch:live": "jest --watch live"
+  },
+  "author": "Tlon Corporation",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "jest-image-snapshot": "^4.5.0",
+    "jest-playwright-preset": "^1.4.5",
+    "playwright": "^1.8.0"
+  }
+}
